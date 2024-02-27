@@ -1,0 +1,295 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Navbar */
+
+#navbar{
+	background-color: #765C3D !important;
+	width: 100vw;
+
+}
+
+#navbar a{
+	color: #F2D2AE !important;
+
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+#navbarNavAltMarkup{
+	margin-right: 15%;
+}
+
+#navbar button {
+	margin-right: 15%;
+}
+
+/* Navbar */
+
+/* Landing */
+
+
+#landing h1{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 72px; /* 112.5% */
+	letter-spacing: -1.28px;	
+}
+
+#landing p{
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px; /* 125% */
+}
+
+
+#landing button{
+	border-radius: 999px;
+	background: #B59066;
+
+	color: var(--button-text-button-primary-text, #FFF);
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 120% */
+}
+
+#landing{
+		background:
+			linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.59)),
+			url("./images/landing.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+
+/* Position of Landing Conten */
+
+#landing-content{
+/*	border: 2px solid yellow;*/
+	margin-bottom: 10vh;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	padding: 5%;
+}
+
+#landing button{
+	display: flex;
+	padding: 12px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+/* Landing End */
+
+
+/* Gallery */
+
+#gallery {
+	margin-top: 10vh;
+	width: 75%;
+}
+
+#gallery h1{
+	color: #765C3D;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;	
+}
+
+#gallery p{
+	color: #765C3D;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* Album */
+
+main{
+	margin-bottom: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#card{
+	background: #FFF;
+	box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding-left: 5%;
+	padding-right: 5%; 
+	padding-bottom: 10%;
+/*	border: 2px solid red;*/
+}
+
+
+
+#card h2{
+	color: #765C3D;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;	
+}
+
+#card p{
+	color: #765C3D;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+
+}
+
+#card-header{
+/*	border: 2px solid yellow;*/
+	margin: 5% !important;
+}
+
+
+/* Contact */
+
+#contact{
+	margin-bottom: 3rem
+}
+
+
+#contact-image{
+
+	/*	Bootstrap Gutter Correction */
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+/*	border: 2px solid red;*/
+}
+
+
+
+
+#contact-image{
+		background:
+			linear-gradient(rgba(0, 0, 0, 0.59),rgba(0, 0, 0, 0.59)),
+			url("./images/contactimage.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+
+	}
+
+
+
+#contact-form{
+	background-color: #FFF2E4;
+	padding: 5%;
+	padding-left: ;
+}
+
+#contact-form h4{
+	color: #765C3D;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-top: 10%;	
+}
+
+#contact-form p{
+	color: #765C3D;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10%;
+}
+
+
+#contact-form label{
+	color: #B59066;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#contact-form input{
+	color: #765C3D;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#contact-form label,
+#contact-form input{
+	margin-top: %;
+	margin-bottom: 2%;
+
+}
+
+#contact-form button{
+
+	padding: 12px 32px;
+
+	gap: 8px;
+	margin-top: 5%;
+
+	border: none !important;
+
+
+
+	border-radius: 999px;
+	background: #B59066;
+
+	color: var(--button-text-button-primary-text, #FFF);
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px; /* 120% */
+}
+
+footer{
+	background-color: #B59066;
+	padding: 1rem;
+}
+
+footer p{
+	color: #FFF2E4;
+
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	/*	alignment correction */
+	margin-bottom: 0 !important;	
+}
